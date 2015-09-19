@@ -1,0 +1,5 @@
+if IsEnemy and (IsValidTarget(enemy, 1000)) then GetDistance(enemy, myHero) CastTargetSpell(OlafAxeThrowCast_Q, enemy, BestPos.x, BestPos.y, BestPos.z) 
+end
+
+GetPercentHP(myHero) if hp > GetBonusDmg(OlafRecklessStrike_E, myHero) then if (IsValidTarget(enemy, 325)) then CastTargetSpell(OlafRecklessStrike_E, enemy) end
+end
